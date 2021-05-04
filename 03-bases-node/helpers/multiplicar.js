@@ -18,7 +18,7 @@ const crearArchivoTabla = async (base = 5) => {
 
         console.log(salida)
 
-        fs.writeFileSync(`/home/jules/Documentos/Personal/NodeJS/03-bases-node/tabla_${base}.txt`, salida);
+        fs.writeFileSync(`tabla_${base}.txt`, salida);
         return `tabla-${base}.txt`
     } catch (err) {
         throw err;
