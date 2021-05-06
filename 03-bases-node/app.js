@@ -16,7 +16,7 @@ const argv = require('yargs')
                 .option('l',{
                     alias:'listar',
                     type:'boolean',
-                    op
+                    
 
                 })
                 .argv;
